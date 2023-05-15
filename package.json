@@ -19,10 +19,10 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "prebuild": "npm clean",
+    "prebuild": "npm run clean",
     "build": "tsup src/index.ts",
     "clean": "rimraf dist",
-    "dev": "npm build --watch",
+    "dev": "npm run build --watch",
     "prepare": "husky install",
     "test": "jest"
   },
