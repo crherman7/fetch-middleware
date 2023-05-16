@@ -21,6 +21,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prebuild": "npm run clean",
     "build": "tsup src/index.ts --dts",
