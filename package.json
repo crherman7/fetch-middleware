@@ -1,5 +1,5 @@
 {
-  "name": "fetch-middleware",
+  "name": "@crherman7/fetch-middleware",
   "version": "0.0.1",
   "description": "Fetch API Middleware",
   "license": "MIT",
