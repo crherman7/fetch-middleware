@@ -79,6 +79,7 @@
     "singleQuote": true,
     "trailingComma": "all"
   },
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@jest/types": "^29.5.0",
     "@tsconfig/node18": "^1.0.1",
